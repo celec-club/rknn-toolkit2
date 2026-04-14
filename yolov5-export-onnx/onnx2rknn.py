@@ -7,12 +7,12 @@ import os
 
 if __name__ == '__main__':
 
-    platform = 'rk3566'
-    exp = 'yolov5s'
+    platform = 'rk3588'
+    exp = 'yolov5s_best'
     Width = 640
     Height = 640
     # Model from https://github.com/airockchip/rknn_model_zoo
-    MODEL_PATH = './onnx_models/yolov5s_relu.onnx' 
+    MODEL_PATH = './onnx_models/best.onnx' 
     NEED_BUILD_MODEL = True
     # NEED_BUILD_MODEL = False
     im_file = './dog_bike_car_640x640.jpg'
